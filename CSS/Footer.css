@@ -1,0 +1,46 @@
+.footer_contenedor{
+    width: 100%;
+    background-color: #111;
+}
+.footer_contenido{
+    height: 100%;
+    width: 100%;
+}
+.footer_info{
+    width: 300px;
+   margin-bottom: 20px;
+}
+.footer_redes_sociales{
+    width: 200px;
+    display: block;
+}
+.footer_redes_sociales i{
+    margin-right: 20px;
+    font-size: 1.3em;
+}
+.footer_horario{
+    width: 220px;
+    margin-bottom: 20px;
+}
+.footer_img_instagram{
+    width: 250px;
+    height: 200px;
+    margin-bottom: 80px;
+}
+.footer_img_instagram img{
+    height: 100%;
+    width: 100%;
+}
+.footer_suscripcion
+{
+    width: 200px;
+    height: 300px;
+   
+}
+.btn_suscribirse{
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #B59872;
+}

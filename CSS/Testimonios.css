@@ -1,0 +1,38 @@
+.testimonios {
+  width: 100%;
+  background-image: url("/IMG/img_testimonios.jpg");
+  background-size: cover;
+}
+.box_titles_testimonios {
+  width: 100%;
+}
+.title_testimonio {
+  font-family: "Great Vibes", cursive;
+  color: #c6aa8a;
+  margin-bottom: -25px;
+  font-size: 4.5em;
+}
+.conte_testimonios {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+}
+.box_testimonios {
+  width: 350px;
+  border: 2px solid #ccc;
+  height: 220px;
+  border-radius: 3px;
+}
+.descripcion_testimonio {
+  height: 100px;
+  width: 100%;
+}
+.descripcion_testimonio img {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin-right: 20px;
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.header {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 500;
+  }
+  .logo {
+    font-weight: bold;
+    margin-left: 60px;
+    height: 100%;
+  }
+  .logo span{
+      color: rgb(228, 17, 17);
+  }
+  .menu {
+    height: 100%;
+    width: 40%;
+    transition: 0.5s;
+    /*border: 1px solid yellow;*/
+  }
+  .menu ul {
+    margin: 0;
+    list-style: none;
+    height: 100%;
+  }
+  li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .btn_menu {
+    padding-right: 20px;
+    height: 100%;
+    font-size: 2em;
+    position: relative;
+    cursor: pointer;
+  }
+  .btn_menu i{
+      position: absolute;
+      transform: translate(-50%,-50%);
+      top: 50%;
+      left: 50%;
+  }
+
+  @media (min-width: 320px) {
+    .logo {
+      height: 100%;
+      font-size: 1.2em;
+    }
+    .menu {
+      position: absolute;
+      height: 100vh;
+      top: 60px;
+      width: 100%;
+    }
+    .menu ul {
+      flex-direction: column;
+    }
+    a {
+      font-size: 1.5em;
+    }
+    .btn_menu{
+        padding-right: 70px;
+    }
+}
+.menu_oculto {
+    transform: translateX(-100%);
+  }
+  .mostrar_menu {
+    transform: translateX(0);
+  }
+
+  
+@media (min-width:1025px){
+   
+    .logo{
+        font-size: 1.5em;
+        padding-left: 70px;
+    }
+    .menu{
+        position: relative;
+        transform: translateX(0);
+        top: 0;
+        width: 60%;
+        background-color: none;
+       
+        height: 100%;
+    }
+    .menu ul{
+        flex-direction: row;
+       
+        padding-right: 70px;
+    }
+ .menu a{
+     font-size: 1em;
+ }
+    .btn_menu{
+        display: none;
+       
+    } 
+}
+
+.ColorHeader{
+  background-color: #fff;
+  box-shadow: 0 0 35px rgba(0,0,0,0.08);;
+}
+.ColorHeader .menu{
+  background-color: #fff;
+}
+.ColorHeader a{
+ color: #111;
+}
+.ColorHeader .btn_menu{
+  color: #111;
+ }
+ .ColorHeader .logo{
+   color: #111;
+   /*-webkit-text-stroke:1px #111;*/
+ }

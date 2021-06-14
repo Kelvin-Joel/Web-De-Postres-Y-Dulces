@@ -1,0 +1,81 @@
+.about_postres {
+  width: 100%;
+  border: 1px solid red;
+}
+.about_info {
+  height: 100%;
+  width: 90%;
+  /*border: 1px solid green;*/
+  margin: auto;
+}
+.about_img {
+  height: 100%;
+  width: 300px;
+}
+.about_img img {
+  height: 100%;
+  width: 240px;
+  display: block;
+  object-fit: cover;
+}
+.about_text {
+  width: 500px;
+  height: 250px;
+  border: 2px solid #ccc;
+  border-radius: 0 20px 0 20px;
+ /*  position: relative;
+  left: -70px; */
+  background-color: #fff;
+}
+.about_text h3 {
+   font-family: 'Great Vibes', cursive;
+ color: #C6AA8A;
+}
+.about_text h2 {
+  margin-top: -20px;
+}
+
+@media (min-width: 320px) {
+  .about_text {
+    width: 100%;
+    height: 250px;
+    margin: auto;
+  }
+  .about_img img {
+    width: 270px;
+    margin: auto;
+  }
+}
+@media (min-width: 768px) {
+    .about_info{
+        width: 100%;
+    }
+  .about_img {
+    width: 500px;
+  }
+  .about_img img{
+      width: 200px;
+      height: 350px;
+  }
+  .about_text {
+    width: 57%;
+    height: 200px;
+    margin: auto;
+  }
+}
+@media (min-width: 1125px) {
+.about_info{
+    width: 70%;
+}
+.about_img{
+        width:450px;
+}
+  .about_text {
+    width: 450px;
+  }
+}
+/* @media (max-width: 1125px) {
+  .about_text {
+    left: 0;
+  }
+} */

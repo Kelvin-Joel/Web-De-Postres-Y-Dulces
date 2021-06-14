@@ -1,0 +1,17 @@
+.seccion_contadores{
+    width: 70%;
+    margin: auto;
+}
+.contadores_datos{
+    height: 60px;
+    width: 200px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.contadores_datos span{
+    color: #C6AA8A;
+    font-size: 1.8em;
+}
+.contadores_datos p{
+    color: #777;
+}

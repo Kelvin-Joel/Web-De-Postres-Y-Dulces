@@ -1,0 +1,41 @@
+.seccion_cocineros{
+    
+    width: 100%;
+}
+.titles_cocineros
+{
+    width: 100%;
+    font-size: 4.5em;
+}
+.title_cocineros{
+    font-family: 'Great Vibes', cursive;
+    color: #C6AA8A;
+    margin-bottom: -15px;
+    font-size: 5;
+}
+.article_cocineros{
+    height: 80%;
+    width: 90%;
+    margin: auto;
+   
+}
+.box_cocineros{
+    margin-bottom: 15px;
+    width: 250px;
+   margin-top: 30px;
+}
+.box_cocineros img{
+    height: 300px;
+    width: 260px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.info_cocineros h3{
+    font-size: 1em;
+}
+.info_cocineros p{
+    color: #777;
+}
+.redes_sociales{
+    color: #C6AA8A;
+}

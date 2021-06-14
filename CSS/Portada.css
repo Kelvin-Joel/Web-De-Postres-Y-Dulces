@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+:root{
+    --FontFamily_titles: 'Great Vibes', cursive;
+}
+.portada {
+    height: 100vh;
+    width: 100%;
+   animation: imagenes 10s infinite linear alternate;
+    background-position: center;
+    background-size: cover;
+  }
+  .info_portada {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .box_title_portada{
+      height: 150px;
+     position:relative;
+     position: relative;
+    /* top: 50px;*/
+     margin-bottom: 0;
+  }
+ .title_portada{
+    font-family: 'Great Vibes', cursive;
+    color:#a79071;
+  }
+
+  /*****galeria postres portada***/
+  .listado_postres_portada{
+    position: relative;
+   
+    width: 100%;
+  }
+  .box_postres_portada{
+      height: 130px;
+      width: 230px;
+     
+  }
+  .box_postres_portada img{
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      object-fit: cover;
+  }
+  .box_postres_portada p{
+      margin-bottom: -5px;
+  }
+  @media (min-width:320px)
+  {
+    .title_portada{
+      font-size: 2.4em;
+  }
+  .subtitulo_portada{
+      font-size: 3.2em;
+  }
+  .listado_postres_portada{
+      margin-top: 0;
+  }
+  .box_postres_portada{
+      width: 150px;
+     
+  }
+  }
+ @media (min-width:360px)
+ {
+     .subtitulo_portada{
+         font-size: 2.8em;
+     }
+     
+ }
+  @media (min-width:768px)
+  {
+   .box_title_portada{
+    top: 200px;
+    margin-bottom: 250px;
+   }
+    .title_portada{
+      font-size: 2.3em;
+  }
+  .listado_postres_portada{
+      margin-top: 200px;
+  }
+  .box_postres_portada{
+      width: 250px;
+  }
+  }
+  @media (min-width:1025px)
+  {
+   .box_title_portada{
+       top: 100px;
+   }
+   .listado_postres_portada{
+       position: relative;
+ 
+   }
+    .title_portada{
+      font-size: 2.4em;
+  }
+    .title_portada{
+        font-size: 2em;
+      
+    }
+    .subtitulo_portada{
+        font-size: 5em;
+    }
+  }
+
+@keyframes imagenes{
+    0%{
+        background-image: url("/IMG/IMG_PORTADA.jpg");
+    }
+    50%{
+        background-image: url("/IMG/img_testimonios.jpg");
+    }
+    100%{
+        background-image: url("/IMG/img_fondo.jpg");
+    }
+}

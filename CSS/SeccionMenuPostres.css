@@ -1,0 +1,39 @@
+
+.seccion_menu_postres{
+    width: 90%;
+  margin: auto;
+}
+.menus_titles{
+    width: 100%;
+}
+.title_menu_postres{
+    font-family: 'Great Vibes', cursive;
+    color: #C6AA8A;
+    margin-bottom: -20px;
+    font-size: 4.5em;
+}
+.box_menus_postres{
+    width: 320px;
+    margin: auto;
+}
+.menus_postres_descripcion{
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding:20px;
+}
+.menus_postres_descripcion img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.descripcion_menus_postres
+{
+    width: 300px;
+    height: 80px;
+    padding:10px;
+}
+
+.descripcion_menus_postres p{
+    margin-bottom: -5px;
+}

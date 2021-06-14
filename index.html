@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header
+      class="header text-white d-flex justify-content-between"
+      id="header"
+    >
+      <span class="logo d-flex justify-content-center align-items-center"
+        >Cake Time</span
+      >
+      <nav class="menu menu_oculto" id="menu">
+        <ul class="d-flex justify-content-evenly align-items-center">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#galeria_postres">Galeria</a></li>
+          <li><a href="#menus_postres">Menus</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#seccion_cocineros">Experts</a></li>
+        </ul>
+      </nav>
+      <span class="btn_menu">
+        <i class="fas fa-bars icon" id="icon"></i>
+      </span>
+    </header>
+
+    <section class="portada">
+      <article class="info_portada text-white">
+        <div class="box_title_portada text-center">
+          <h1 class="mb-3 title_portada p-2 text-center">Belines</h1>
+          <h2 class="subtitulo_portada mb-5">Cake Time</h2>
+        </div>
+        <article
+          class="d-flex text-white text-center justify-content-around align-items-center listado_postres_portada flex-wrap"
+        >
+          <div class="box_postres_portada mb-3">
+            <img src="IMG/postres1.jpg" alt="" />
+            <p>Postre</p>
+            <p>Chocolate Con Leche</p>
+          </div>
+          <div class="box_postres_portada mb-3">
+            <img src="IMG/postre2.jpg" alt="" />
+            <p>Postre</p>
+            <p>Chocolate Con Leche</p>
+          </div>
+          <div class="box_postres_portada mb-3">
+            <img src="IMG/postre3.png" alt="" />
+            <p>Postre</p>
+            <p>Chocolate Con Leche</p>
+          </div>
+          <div class="box_postres_portada mb-3">
+            <img src="IMG/postres1.jpg" alt="" />
+            <p>Postre</p>
+            <p>Chocolate Con Leche</p>
+          </div>
+        </article>
+      </article>
+    </section>
+
+    <section class="about_potres mt-5 " id="about">
+      <article
+        class="about_info d-flex justify-content-center align-items-center flex-wrap"
+      >
+        <div
+          class="about_img mb-3 p-2 d-flex justify-content-between align-items-center flex-wrap"
+        >
+          <img src="IMG/img_about1.jpg" class="mb-2" alt="" />
+          <img src="IMG/img_about2.jpg" alt="" />
+        </div>
+        <div class="about_text p-2">
+          <h2 class="mt-2">Sobre Nosotros</h2>
+          <h3>Postres Dulces</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+            tempore perferendis voluptates nesciunt numquam minima veniam eius,
+            sapiente ipsa, excepturi praesentium hic veritatis sunt nobis saepe
+            similique nulla fugiat harum!
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section class="seccion_contadores mt-5 d-flex justify-content-around align-items-center flex-wrap">
+      <article class="contadores_datos">
+       <span id="años_experiencia">6</span>
+       <p>Años De Experiencia</p>
+      </article>
+      <article class="contadores_datos">
+        <span id="cantidad_postres">50</span>
+        <p>Variedades De Postres</p>
+      </article>
+      <article class="contadores_datos">
+        <span id="cantidad_trabajdores">30</span>
+        <p>Trabajadores</p>
+      </article>
+      <article class="contadores_datos">
+        <span id="clientes_sastifechos">2000</span>
+        <p>Clientes Sastifechos</p>
+      </article>
+    </section>
+
+    <section class="seccion_galeria_postres text-center mt-5 mb-5" id="galeria_postres">
+      <h2 class="title_galeria">Galeria</h2>
+      <h3 class="subtitulo_gelaria fw-bold">Nuestros Postres Mas Pedidos</h3>
+      <article
+        class="box_galeria_postres mt-5 d-flex justify-content-center align-items-center flex-wrap"
+      >
+        <div class="img_galeria_postres">
+          <img src="IMG/galeriapostre4.jpg" alt="" />
+        </div>
+        <div class="img_galeria_postres">
+          <img src="IMG/postre2.jpg" alt="" />
+        </div>
+        <div class="img_galeria_postres">
+          <img src="IMG/galeriapostre3.jpg" alt="" />
+        </div>
+        <div class="img_galeria_postres">
+          <img src="IMG/galeriapostre1.jpg" alt="" />
+        </div>
+        <div class="img_galeria_postres">
+          <img src="IMG/galeriapostre6.jpg" alt="" />
+        </div>
+        <div class="img_galeria_postres">
+          <img src="IMG/galeriapostre5.jpg" alt="" />
+        </div>
+        <div class="img_galeria_postres">
+          <img src="IMG/galeriapostre7.jpg" alt="" />
+        </div>
+        <div class="img_galeria_postres">
+          <img src="IMG/galeriapostre3.jpg" alt="" />
+        </div>
+      </article>
+    </section>
+
+    <section
+      class="seccion_menu_postres mt-5 text-center d-flex justify-content-around align-items-center flex-wrap" id="menus_postres"
+    >
+      <div class="menus_titles">
+        <h1 class="title_menu_postres">Especialidades</h1>
+        <h2>Nuestro Menu</h2>
+      </div>
+      <section class="box_menus_postres mt-5">
+        <h3>Cakes</h3>
+
+        <div
+          class="menus_postres_descripcion p-2 d-flex justify-content-between align-items-center"
+        >
+          <img src="IMG/menu_postre1.jpg" class="img_menus_postres" alt="" />
+          <div class="descripcion_menus_postres text-start">
+            <h4>Strawberry Cake</h4>
+            <p>Lorem ipsum dolor, sit</p>
+            <p>S/5.00</p>
+          </div>
+        </div>
+
+        <div
+          class="menus_postres_descripcion p-2 d-flex justify-content-between align-items-center"
+        >
+          <img src="IMG/postre3.jpg" class="img_menus_postres" alt="" />
+          <div class="descripcion_menus_postres text-start">
+            <h4>Strawberry Cake</h4>
+            <p>Lorem ipsum dolor, sit</p>
+            <p>S/5.00</p>
+          </div>
+        </div>
+
+        <div
+          class="menus_postres_descripcion p-2 d-flex justify-content-between align-items-center"
+        >
+          <img src="IMG/galeriapostre6.jpg" class="img_menus_postres" alt="" />
+          <div class="descripcion_menus_postres text-start">
+            <h4>Strawberry Cake</h4>
+            <p>Lorem ipsum dolor, sit</p>
+            <p>S/3.00</p>
+          </div>
+        </div>
+      </section>
+      <!--------------------------------------------------------->
+      <section class="box_menus_postres mt-5">
+        <h3>Wedding Cakes</h3>
+
+        <div
+          class="menus_postres_descripcion p-2 d-flex justify-content-between align-items-center"
+        >
+          <img src="IMG/galeriapostre1.jpg" class="img_menus_postres" alt="" />
+          <div class="descripcion_menus_postres text-start">
+            <h4>Strawberry Cake</h4>
+            <p>Lorem ipsum dolor, sit</p>
+            <p>S/10.00</p>
+          </div>
+        </div>
+
+        <div
+          class="menus_postres_descripcion p-2 d-flex justify-content-between align-items-center"
+        >
+          <img src="IMG/galeriapostre3.jpg" class="img_menus_postres" alt="" />
+          <div class="descripcion_menus_postres text-start">
+            <h4>Strawberry Cake</h4>
+            <p>Lorem ipsum dolor, sit</p>
+            <p>S/7.00</p>
+          </div>
+        </div>
+
+        <div
+          class="menus_postres_descripcion p-2 d-flex justify-content-between align-items-center"
+        >
+          <img src="IMG/galeriapostre5.jpg" class="img_menus_postres" alt="" />
+          <div class="descripcion_menus_postres text-start">
+            <h4>Strawberry Cake</h4>
+            <p>Lorem ipsum dolor, sit</p>
+            <p>S/4.50</p>
+          </div>
+        </div>
+      </section>
+
+      <!--------------------------------------------------------->
+      <section class="box_menus_postres mt-5">
+        <h3>Wedding Cakes</h3>
+
+        <div
+          class="menus_postres_descripcion p-2 d-flex justify-content-between align-items-center"
+        >
+          <img src="IMG/galeriapostre3.jpg" class="img_menus_postres" alt="" />
+          <div class="descripcion_menus_postres text-start">
+            <h4>Strawberry Cake</h4>
+            <p>Lorem ipsum dolor, sit</p>
+            <p>S/5.00</p>
+          </div>
+        </div>
+
+        <div
+          class="menus_postres_descripcion p-2 d-flex justify-content-between align-items-center"
+        >
+          <img src="IMG/galeriapostre5.jpg" class="img_menus_postres" alt="" />
+          <div class="descripcion_menus_postres text-start">
+            <h4>Strawberry Cake</h4>
+            <p>Lorem ipsum dolor, sit</p>
+            <p>S/5.00</p>
+          </div>
+        </div>
+
+        <div
+          class="menus_postres_descripcion p-2 d-flex justify-content-between align-items-center"
+        >
+          <img src="IMG/galeriapostre6.jpg" class="img_menus_postres" alt="" />
+          <div class="descripcion_menus_postres text-start">
+            <h4>Strawberry Cake</h4>
+            <p>Lorem ipsum dolor, sit</p>
+            <p>S/5.00</p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="testimonios text-center mt-5" id="testimonios">
+      <div
+        class="conte_testimonios d-flex justify-content-around align-items-center flex-wrap text-white"
+      >
+        <artciles class="box_titles_testimonios">
+          <h2 class="title_testimonio">Testimonios</h2>
+          <h3 class="text-white">Clientes Felices</h3>
+        </artciles>
+        <article class="box_testimonios mb-2 mt-5 p-2">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+            dolor repellat explicabo beatae
+          </p>
+          <div
+            class="descripcion_testimonio d-flex justify-content-start align-items-center"
+          >
+            <img src="IMG/testimonio1.jpg" alt="" />
+            <span>
+              <h4>Rogger Scot</h4>
+              <p>Marketing Manager</p>
+            </span>
+          </div>
+        </article>
+        <article class="box_testimonios mb-2 mt-5 p-2">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+            dolor repellat explicabo beatae
+          </p>
+          <div
+            class="descripcion_testimonio d-flex justify-content-start align-items-center"
+          >
+            <img src="IMG/testimonio2.jpg" alt="" />
+            <span>
+              <h4>Rogger Scot</h4>
+              <p>Marketing Manager</p>
+            </span>
+          </div>
+        </article>
+        <article class="box_testimonios mb-2 mt-5 p-2">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+            dolor repellat explicabo beatae
+          </p>
+          <div
+            class="descripcion_testimonio d-flex justify-content-start align-items-center"
+          >
+            <img src="IMG/testimonio3.jpg" alt="" />
+            <span>
+              <h4>Nataly Scot</h4>
+              <p>Marketing Manager</p>
+            </span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="seccion_cocineros text-center mt-5" id="seccion_cocineros">
+      <h1 class="title_cocineros">Chef</h1>
+      <h2>Nuestros Expertos Chef</h2>
+      <article
+        class="article_cocineros d-flex justify-content-around align-items-center flex-wrap"
+      >
+        <div class="box_cocineros">
+          <img src="IMG/cocinero1.jpg" class="mb-2" alt="" />
+          <div class="info_cocineros text-start">
+            <h3>Jhon Smooth</h3>
+            <p>Pastelero</p>
+            <span class="redes_sociales">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-linkedin-in"></i>
+            </span>
+          </div>
+        </div>
+        <div class="box_cocineros">
+          <img src="IMG/cocinero2.jpg" class="mb-2" alt="" />
+          <div class="info_cocineros text-start">
+            <h3>Andre Montenegro Rojas</h3>
+            <p>Cocinero Cocina</p>
+            <span class="redes_sociales">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-linkedin-in"></i>
+            </span>
+          </div>
+        </div>
+        <div class="box_cocineros">
+          <img src="IMG/cocinero3.jpg" class="mb-2" alt="" />
+          <div class="info_cocineros text-start">
+            <h3>Carolina Montes Riojas</h3>
+            <p>Cocinero Cocina</p>
+            <span class="redes_sociales">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-linkedin-in"></i>
+            </span>
+          </div>
+        </div>
+        <div class="box_cocineros">
+          <img src="IMG/cocinero4.jpg" class="mb-2" alt="" />
+          <div class="info_cocineros text-start">
+            <h3>Jhon Smooth</h3>
+            <p>Cocinero Cocina</p>
+            <span class="redes_sociales">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-linkedin-in"></i>
+            </span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <footer class=" text-white footer_contenedor mt-5">
+    <div class="footer_contenido d-flex justify-content-between p-5 align-items-center flex-wrap">
+      <article class="footer_info align-self-start">
+        <h3>Belines</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ullam nesciunt sunt, doloribus a error cum. Corporis eveniet similique quos nihil</p>
+        <p>Belines45@gmail.com</p>
+        <p>959754578</p>
+        <span class="footer_redes_sociales ">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+        </span>
+       </article>
+  
+       <article class="footer_horario ">
+        <h3>Horarios</h3>
+        <span class="d-flex justify-content-between align-items-center flex-wrap">
+          <p>Lunes</p>
+          <p>9:30 AM - 10:00 PM</p>
+          <p>Martes</p>
+          <p>9:30 AM - 10:00 PM</p>
+          <p>Miercoles</p>
+          <p>9:30 AM - 10:00 PM</p>
+          <p>Jueves</p>
+          <p>9:30 AM - 10:00 PM</p>
+          <p>Viernes</p>
+          <p>9:30 AM - 10:00 PM</p>
+          <p>Sabado</p>
+          <p>10:00 AM - 9:00 PM</p>
+          <p>Domingo</p>
+          <p>8:00 AM - 1:30 PM</p>
+        </span>
+       </article>
+       <article class="footer_img_instagram align-self-start">
+         <h3>Instagram</h3>
+         <img src="IMG/instagram_postres.jpeg" alt="">
+       </article>
+       <article class="footer_suscripcion align-self-start">
+         <h3>NewsLetter</h3>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+         <form>
+           <input type="text" class="form-control mb-2" placeholder="Gmail">
+           <button class="btn_suscribirse text-white">Suscribirse</button>
+         </form>
+       </article>
+    </div>
+    </footer>
+    <script src="JS/app.js"></script>
+  </body>
+</html>

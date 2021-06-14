@@ -1,0 +1,24 @@
+.title_galeria{
+    font-family: 'Great Vibes', cursive;
+    font-size: 4.5em;
+    margin-bottom: -20px;
+    color: #C6AA8A;
+}
+.seccion_galeria_postres{
+    width: 100%;
+    margin: auto;
+}
+.box_galeria_postres{
+    width: 100%;
+    height: 100%;
+}
+.img_galeria_postres
+{
+    height: 200px;
+    width: 280px;
+}
+.img_galeria_postres img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
